@@ -1,0 +1,94 @@
+body{
+  background-color: #4F4D53;
+}
+
+.container{
+  margin: auto 0;
+}
+
+.context{
+  margin: 0 100px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.icons {
+  /* width: 100%; */
+  margin: auto 0;
+  text-align: center;
+}
+
+.icon {
+  padding: 5%;
+  margin-top: 125px;
+}
+
+h1{
+  font-family: "Roboto Black";
+  font-weight: 900;
+  font-size: 100px;
+  color: #4F4D53;
+  text-align: center;
+}
+
+h2{
+  font-family: "Roboto Black";
+  font-weight: 900; 
+  font-size: 64px; 
+  color: #E8BE02;
+  text-align: center;
+}
+
+h3{ 
+  font-family: "Roboto Black";
+  font-weight: 900; 
+  font-size: 20px;
+  color: #E8BE02;
+}
+
+h4{
+  font-family: "Roboto Regular";
+  font-weight:  400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+p{
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  font-size: 20px;
+  color: #4F4D53;
+}
+
+.navbar{
+  font-size: 48px;
+  color:#4F4D53;
+  height: 0px;
+}
+
+.header_line{
+  font-size:  12px;
+  color:  #E8BE02;
+  background: no-repeat url(../media/img_hero.jpg) #FFFFFF;
+}
+
+.footer{
+  font-size:  320px;
+  color: #4F4D53;
+  text-align: center;
+  margin: auto 0;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  text-align: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
